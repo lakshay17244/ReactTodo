@@ -1,16 +1,3 @@
-// if you want to show initial data :)
-// const INITIAL_DATA =  [
-//     {
-//         id: 0,
-//         text: 'Walk the Dog',
-//     },
-//     {
-//         id:1,
-//         text: 'learn Redux',
-
-//     },
-// ]
-
 import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO} from '../actions/actionsTypes'
 
 const INITIAL_DATA = []

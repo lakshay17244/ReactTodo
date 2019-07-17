@@ -141,10 +141,10 @@ class CreateTodo extends Component {
                             ))}
                         </TextField>
                     </div>
-                    <Button variant="contained" color="primary" onClick={this.resetForm} style={{ marginTop: "25px",marginLeft: "20vw", marginRight: "15px" }}> Clear </Button>
+                    <Button variant="contained" color="primary" onClick={this.resetForm} style={{ marginTop: "25px", marginLeft: "20vw", marginRight: "15px" }}> Clear </Button>
                     <Button variant="contained" color="primary"
                         onClick={this.handleSubmit}
-                        style={{ marginTop: "25px"}}>Save</Button>
+                        style={{ marginTop: "25px" }}>Save</Button>
                     <div className={textFieldStyle} style={{ paddingTop: '20px' }} >
                         <Link to='/table'>Go to tasks</Link>
                     </div>

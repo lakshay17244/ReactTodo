@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 class Table extends Component {
   render() {
-    console.log("props=",this.props);
+    // console.log("props=", this.props);
     return (
       <div className="col-lg-10 offset-lg-1 col-md-10 col-sm-12 col-xs-12">
         <nav style={{ marginTop: "60px" }}>
@@ -56,12 +56,12 @@ class Table extends Component {
                     }}
                   >
                     Title - {todo.text.title}
-                    <br/>
+                    <br />
                     Description - {todo.text.description}
-                    <br/>
-                    Due Date - {todo.text.dueDate.length ? todo.text.dueDate : 'N/A' }
-                    <br/>
-                    Status - {todo.text.status.length ? todo.text.status : 'N/A' }
+                    <br />
+                    Due Date - {todo.text.dueDate.length ? todo.text.dueDate : 'N/A'}
+                    <br />
+                    Status - {todo.text.status.length ? todo.text.status : 'N/A'}
                   </td>
                   <td>
                     <span
